@@ -1,2 +1,2 @@
-# emilly-hames.github.io.
+# emilly-hames.github.io
 Aula de programação Web
