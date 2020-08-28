@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head><!--cabeça-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML básico</title>
+</head>
+<body><!--corpo-->
+    <p>Link para o
+        <a href="#final">final da página</a>.
+    </p>
+    <h1 id="topo">Isso é um cabeçalho de nível 1 - Grande</h1>
+    <h2>Isso é um cabeçalho de nível 2 - Médio</h2>
+    <h3>Isso é um cabeçalho de nível 3 - Pequeno</h3>
+    <p>Isso é um parágrafo. E vamos aproveitar para ver
+        <br>a quebra de linha. A quebra de linha,
+    <br>É um BR.
+    <br>Existem outros cabeçalhos menores: h4,h5 e h6.
+    </p>
+    <!--Isto é um comentário -->
+    O comentário é HTML não aparece no navegador.
+
+    <h2>Listas</h2>
+    <!--Há alguns tipos de listas no HTML,
+    abaixo veremos duas--> 
+    <!--LISTA ORDENADA (NUMERADA)-->
+    <h3>Lista Ordenada</h3>
+    <ol><!--Ordered List-->
+        <li>Webdesign</li><!--List Item(Item da lista-->
+        <li>Linguagem de programação Web</li>
+        <li>Serviços de rede e Internet</li>
+
+
+    </ol>
+    <h3>Lista não Ordenada</h3>
+    <ul><!--unordered List--!
+     <li>Webdesign</li><!--List Item(Item da lista-->
+     <li>Linguagem de programação Web</li>
+     <li>Serviços de rede e Internet</li>
+    </ul>
+        <h3>Citação de frase de um autor</h3>
+        <blockquote>
+            <p>Só sei que nada sei. </p>
+            <cite>Sócrates</cite>
+        </blockquote>
+
+        <h3>Ênfase e reforço</h3>
+        <p>
+            Existem situações que nós queremos <br>
+            dar um reforço na <strong>palavra</strong><br>
+           ou <strong>em uma frase completa</strong><br>
+           o resultado, é que fica em <strong>negrito</strong><br>
+        </p>
+        <p>
+            Em outras situações, pode-se dar uma <em>Ênfase</em>. <br>
+            A Ênfase pode-se ser dada em uma <em>palavra</em> ou <br>
+            <em>em uma frase</em>. E o resultado disso é que fica <br>
+             em <em>Itálico</em>.
+        </p>
+        <h3>Imagem</h3>
+        <!--Para colocar imagem, precisa-se saber o endereço dela,
+             a URL da imagem, seja remoto na internet,
+              seja local no seu computador, usa-se a TAG img seguido de src e alt, 
+            sendo a src a URL e alt um texto alternativo.
+         Se estiver usando uma imagem da internet, basta copiar o endereço da imagem,
+            e colar dentro de SRC.
+         height = Altura
+        width = largura
+    -->
+           
+            <img src="https://apogeudosdeuses.files.wordpress.com/2013/06/gato-preto-com-chapeu.jpg" 
+            alt="imagem de um gato preto, com chapéu de bruxa"
+            height="180" 
+            width="160">
+
+            <h3>Imagem Local</h3>
+           <img src="images\Emilly.jpg" alt="Foto da Emilly"
+           height="300"
+           width="200">
+           <h4>Emilly Cristina Hames</h4>
+           <p>Idade:14 anos</p>
+           <p>Natural de <em>Brusque</em>
+           <strong>Santa Catarina</strong>:</p>
+           <H3>Âncora ou mais popularmente <em>Link</em></H3>
+           <!-- O link é a essência da linguagem HTML,
+            pois é através dele que se faz o hipertexto,
+            que significa um grande texto que se conecta a outros. 
+        a- TAG âncora
+        href - propriedade de referência, o site que será aberto.-->
+
+
+            <p>Acesse o meu perfil no github <a href="https://www.github.com/Emilly-hames">
+                Github
+            </a> !
+        </p>
+
+        <!--Link com alvo (target blank) para uma nova guia\aba\janela.-->
+        <a href="https://Emilly-hames.github.io" target="_blank">
+            <p> Este é o link com alvo. Para abrir o repositório.
+                Para abrir em uma nova aba. </p>
+                <h1 id="#Fim"> </h1>
+        </a>
+        <!--Link para a própria página.
+        Este tipo de link exige doispassos:
+    1 - Identificar o ponto para onde quer ir.
+    2 - É o link propriamente dito, com #-->
+   
+    <p id="final">
+        <a href="#topo">Clique aqui</a>
+        para voltar ao início da página.
+    </p> 
+<br><br><br><br><br><br>
+</body>
+           </html>
